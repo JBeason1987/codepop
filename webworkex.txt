@@ -1,0 +1,37 @@
+How Web Works Exercise
+Part One: Solidify Terminology
+In your own terms, define the following terms:
+
+What is HTTP?
+	hyper text transfer protocol
+
+What is a URL?
+	uniform resource locator
+
+What is DNS?
+	domain name system
+
+What is a query string?
+	a string that helps search a specific topic by providing extra information combined topics with "&" sign
+
+What are two HTTP verbs and how are they different?
+	Get: sends a request for information
+	post: sends a request to send information
+
+What is an HTTP request?
+	a method, (get) a resource of the url I requested, and any header that's included.
+
+What is an HTTP response?
+	An HTTP response is a response from a server to a client which follows the HTTP protocol. Html/css/text
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+	Headers provide content type date/time cookies and cached information that may be store.
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+	The server resolves the IP address and sends/receives information and status codes.
+Part Two: Practice Tools
+Using curl, make a GET request to the icanhazdadjoke.com API to find all jokes involving the word “pirate”
+	$curl https://icanhazdadjoke.com/search?term=pirate
+	
+Use dig to find what the IP address is for icanhazdadjoke.com
+	$dig https://icanhazdadjoke.com +short
